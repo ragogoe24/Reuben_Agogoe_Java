@@ -6,8 +6,10 @@ public class ChatterPost {
     public ChatterPost(String text){
         this.text = text;
     }
-    // to test on terminal
+    // getter to serialize
     public String getPost(){
         return text;
     }
+
+
 }
