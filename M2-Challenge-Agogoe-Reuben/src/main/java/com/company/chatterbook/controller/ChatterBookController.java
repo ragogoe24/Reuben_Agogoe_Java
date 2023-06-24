@@ -51,7 +51,7 @@ public class ChatterBookController {
     @RequestMapping(value = "/users/{name}", method = RequestMethod.GET)
     public User getUser(@PathVariable String name){
         List<User> found = userList.stream().
-                filter(user -> user.getName().toLowerCase().equals(name.toLowerCase()))
+                filter(user -> user.getName().equals(name))
                 .collect(Collectors.toList());
         return found.size() == 0 ? null : found.get(0) ;
     }
@@ -59,7 +59,7 @@ public class ChatterBookController {
     @RequestMapping(value = "/chatterPosts/{name}", method = RequestMethod.GET)
     public List<ChatterPost> getAllChatterPostByUser(@PathVariable String name){
         List<List<ChatterPost>> posts = userList.stream().
-                filter(user -> user.getName().toLowerCase().equals(name.toLowerCase()))
+                filter(user -> user.getName().equals(name))
                 .map(User::getChatterPosts)
                 .collect(Collectors.toList());
 
