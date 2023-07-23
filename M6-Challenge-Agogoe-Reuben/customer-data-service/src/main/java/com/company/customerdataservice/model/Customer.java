@@ -27,10 +27,10 @@ public class Customer implements Serializable {
     private String country;
 
     public Customer(){}
-    public Customer(String firstName, String lastName, String company, String phone){
+    public Customer(String firstName, String lastName, String email, String phone){
         this.firstName = firstName;
         this.lastName = lastName;
-        this.company = company;
+        this.email = email;
         this.phone = phone;
     }
     public Integer getId() {

@@ -26,7 +26,7 @@ public class CustomerRepositoryTest {
     @Test
     public void shouldCreateCustomer(){
         Customer customer = new Customer("Reuben", "Agogoe", "ragogoe@princeton.edu",
-                "6092123905");
+                "+16092123905");
         customer.setAddress1("2004 Frist Campus Center");
         customer.setCity("Princeton");
         customer.setCompany("Princeton University");
@@ -43,7 +43,7 @@ public class CustomerRepositoryTest {
     @Test
     public void shouldUpdateCustomerRecord(){
         Customer customer = new Customer("Reuben", "Agogoe", "ragogoe@princeton.edu",
-                "6092123905");
+                "+16092123905");
         customer.setAddress1("2004 Frist Campus Center");
         customer.setCity("Princeton");
         customer.setCompany("Princeton University");
@@ -64,7 +64,7 @@ public class CustomerRepositoryTest {
     @Test
     public void shouldDeleteCustomerById(){
         Customer customer = new Customer("Reuben", "Agogoe", "ragogoe@princeton.edu",
-                "6092123905");
+                "+16092123905");
         customer.setAddress1("2004 Frist Campus Center");
         customer.setCity("Princeton");
         customer.setCompany("Princeton University");
@@ -86,7 +86,7 @@ public class CustomerRepositoryTest {
     @Test
     public void shouldFindCustomerById(){
         Customer customer = new Customer("Reuben", "Agogoe", "ragogoe@princeton.edu",
-                "6092123905");
+                "+16092123905");
         customer.setAddress1("2004 Frist Campus Center");
         customer.setCity("Princeton");
         customer.setCompany("Princeton University");
@@ -99,7 +99,7 @@ public class CustomerRepositoryTest {
         assertEquals(cust1.get(), customer);
 
         Customer customer2 = new Customer("Janelle", "Umana", "jumana@princeton.edu",
-                "6572671133");
+                "+16572671133");
         customer2.setAddress1("2004 Frist Campus Center");
         customer2.setCity("Princeton");
         customer2.setCompany("Princeton University");
