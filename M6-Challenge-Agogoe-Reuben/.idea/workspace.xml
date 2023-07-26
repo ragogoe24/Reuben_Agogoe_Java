@@ -60,6 +60,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerControllerTests.shouldDeleteCustomerAndReturn204StatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-data-service" />
+      <option name="PACKAGE_NAME" value="com.company.customerdataservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.company.customerdataservice.controller.CustomerControllerTests" />
+      <option name="METHOD_NAME" value="shouldDeleteCustomerAndReturn204StatusCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTests.shouldGetAllCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-data-service" />
+      <option name="PACKAGE_NAME" value="com.company.customerdataservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.company.customerdataservice.controller.CustomerControllerTests" />
+      <option name="METHOD_NAME" value="shouldGetAllCustomers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTests.shouldReturnCreatedStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-data-service" />
+      <option name="PACKAGE_NAME" value="com.company.customerdataservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.company.customerdataservice.controller.CustomerControllerTests" />
+      <option name="METHOD_NAME" value="shouldReturnCreatedStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerControllerTests.shouldReturnCustomerByIdAndOkResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-data-service" />
+      <option name="PACKAGE_NAME" value="com.company.customerdataservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.company.customerdataservice.controller.CustomerControllerTests" />
+      <option name="METHOD_NAME" value="shouldReturnCustomerByIdAndOkResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -67,6 +111,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerControllerTests.shouldDeleteCustomerAndReturn204StatusCode" />
+        <item itemvalue="JUnit.CustomerControllerTests.shouldReturnCustomerByIdAndOkResponse" />
+        <item itemvalue="JUnit.CustomerControllerTests.shouldReturnCreatedStatus" />
+        <item itemvalue="JUnit.CustomerControllerTests.shouldGetAllCustomers" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>
