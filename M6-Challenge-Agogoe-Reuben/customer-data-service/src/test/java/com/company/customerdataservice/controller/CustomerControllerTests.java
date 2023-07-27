@@ -23,7 +23,6 @@ public class CustomerControllerTests {
     private ObjectMapper mapper = new ObjectMapper();
 
 
-
     @Test
     public void shouldReturnCreatedStatus() throws Exception{
         Customer customer = new Customer("Reuben K", "Agogoe", "ragogoe@princeton.edu",
@@ -73,7 +72,7 @@ public class CustomerControllerTests {
     }
 
     @Test
-    public void shouldGetAllCustomers() throws Exception{
+    public void shouldGetAllCustomersAndOkResponse() throws Exception{
         mockMvc.perform(
                 get("/customers")
         )
